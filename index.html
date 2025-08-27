@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhakti's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+
+<body>
+    <div class="particle-container">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+    <div class="cursor-follower"></div>
+    
+    <nav>
+        <div id="logo"> <𝐵𝒽𝒶𝓀𝓉𝒾 /> </div>
+          <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#edu">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- <div id="theme-toggle" class="theme"><button>Toggle Theme</button></div> -->
+
+    <div id="mainCont">
+        <section class="" id="landing">
+            <div id="left-half">
+                <h1>Welcome to Bhakti's World.</h1>
+                <p>I am a <span id="typing-text"></span></p>
+            </div>
+
+            <div id="right-half">
+                <div id="lottie-container" class="lottie"></div>
+            </div>
+        </section>
+
+        <section class="" id="about">
+            <h2><span class="first-letter">A</span>bout Me</h2>
+            <div id="about-content" class="animate__animated animate__fadeInUp">
+                <div id="leftImg">
+                    <div id="imgCont">
+                        <img src="./assets/meraphoto2.jpg" alt="Bhakti's Photo">
+                    </div>
+                    <div id="contact_lists">
+                        <a href="#" target="_blank" aria-label="GitHub"><i class="fab fa-github social-icon"></i></a>
+                        <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in social-icon"></i></a>
+                        <a href="#" target="_blank" aria-label="Mail"><i class="fas fa-envelope social-icon"></i></a>
+                        <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram social-icon"></i></a>
+                    </div>
+                </div>
+
+                <div id="rightText">
+                    Hi, I’m Bhakti Prasad Swain, a student at IIT Gandhinagar passionate about web development, electronics, and AI. I love building projects that connect creativity with technology—ranging from full-stack web apps to IoT systems with Arduino and Raspberry Pi.
+
+Currently, I’m exploring AI, NLP, and personalized web apps, with a focus on creating solutions that make life simpler and smarter. I’m always excited to collaborate, learn, and grow through real-world projects and new opportunities. 🚀
+                </div>
+            </div>
+        </section>
+
+        <section class="" id="projects">
+            <h2><span class="first-letter">M</span>y projects</h2>
+            <div id="load_project"></div>
+        </section>
+<!-- 
+        <section class="" id="edu">
+            <h2><span class="first-letter">E</span>ducation details</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h4>Undergraduate at IIT Gandhinagar</h4>
+                        <span class="period">2024 - present</span>
+                        <p>Pursuing a Bachelor's degree in... with a focus on...</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h4>Avanti Fellow</h4>
+                        <span class="period">2022 - 2024</span>
+                        <p>A brief description of your experience as an Avanti Fellow.</p>
+                    </div>
+                </div>
+                </div>
+        </section> -->
+
+        <section class="contact" id="contact">
+            <h3><span class="first-letter">G</span>et in Touch</h3>
+            <div id="contact-form-container">
+                <form action="#">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <div class="social-icons">
+            <a href="#" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" target="_blank" aria-label="Mail"><i class="fas fa-envelope"></i></a>
+            <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>With love @Bhakti</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.6/lottie.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

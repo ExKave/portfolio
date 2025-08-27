@@ -1,0 +1,20 @@
+[
+    {
+        "id":0,
+        "title":"AquaPylot",
+        "img_source":"./assets/aquapylot_ui2_cropped.jpg",
+        "desc":"AquaPylot is an Arduino project for automatic control of tank water inflow.",
+        "source_link":"https://github.com/ExKave/WaterTankMonitoring",
+        "live_link":"https://github.com/ExKave/WaterTankMonitoring"
+
+    },
+    {
+        "id":1,
+        "title":"MoSathi",
+        "img_source":"./assets/dklservices.png",
+        "desc":"This is a project in progress to connect local service providers with customers (Inspired by JustDial)",
+        "source_link":"https://github.com/ExKave/dklservices",
+        "live_link":"https://exkave.github.io/dklservices/"
+
+    }
+]
