@@ -102,14 +102,16 @@ Currently, I’m exploring AI, NLP, and personalized web apps, with a focus on c
         <section class="contact" id="contact">
             <h3><span class="first-letter">G</span>et in Touch</h3>
             <div id="contact-form-container">
-                <form action="#">
-                    <input type="text" name="name" placeholder="Your Name" required>
-                    <input type="email" name="email" placeholder="Your Email" required>
-                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <form action="#" id="myForm">
+                    <input type="text" name="name" placeholder="Your Name" id="name" required>
+                    <input type="email" name="email" placeholder="Your Email" id="email" required>
+                    <textarea name="message" rows="5" placeholder="Your Message" id="message" required></textarea>
                     <button type="submit">Send Message</button>
                 </form>
             </div>
         </section>
+
+          <div id="notification" class="notification"></div>
 
     </div>
 
@@ -126,7 +128,7 @@ Currently, I’m exploring AI, NLP, and personalized web apps, with a focus on c
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.6/lottie.min.js"></script>
     <script src="script.js"></script>
-
+    <script src="handle_form.js"></script>
 </body>
 
 </html>
