@@ -202,6 +202,9 @@ h2::after {
     align-items: center;
     gap: 2rem;
     min-height: 100vh;
+    background-color: var(--primary-color);
+    background-image: radial-gradient(circle, #E5E7EB 1px, transparent 1px);
+    background-size: 20px 20px;
 }
 
 
@@ -211,6 +214,33 @@ h2::after {
     flex-direction: column;
     justify-content: center;
     height: 100%;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    /* max-width: 500px; */
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    background-color: var(--accent-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+     min-width: 150px; /* Forces a minimum width */
+    max-width: 250px; /* Prevents it from getting too wide */
+    
+}
+
+.cta-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 #landing #right-half {
@@ -238,7 +268,7 @@ h2::after {
     border-right: 2px solid var(--accent-color);
     white-space: nowrap;
     overflow: hidden;
-    animation: blink-caret 0.75s step-end infinite;
+    animation: blink-caret 0.5s step-end infinite;
 }
 
 @keyframes blink-caret {
@@ -252,6 +282,8 @@ h2::after {
     justify-content: center;
     align-items: center;
 }
+
+
 
 #lottie-container {
     height: 400px;
@@ -670,6 +702,20 @@ footer .social-icons a:hover {
         overflow: hidden;
     }
 
+      #landing #left-half {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; /* This centers content horizontally */
+        text-align: center; /* Ensures text is centered */
+        padding-left: 0;
+    }
+
+    #landing #left-half .subtitle{
+        display: none;
+    }
+
     /* Hamburger menu */
     .hamburger {
         display: block;
@@ -779,3 +825,4 @@ footer .social-icons a:hover {
       opacity: 1;
       transform: translateY(0);
     }
+
